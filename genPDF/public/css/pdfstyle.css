@@ -1,0 +1,20 @@
+
+.container {
+    position: relative;
+    right: 45px;
+    bottom:15px
+  }
+.top-left {
+  position: absolute;
+  left: 16px;
+  }
+.control-label{
+font-size: 0.7rem;
+ ;
+}
+.headertext{
+    position: relative;
+    font-size:0.8rem;
+    float: right;
+    right: 40px;
+}

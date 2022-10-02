@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form-control{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    background-color: #ffffff; 
+    color: #374151; 
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    color: #9CA3AF; 
+    flex: 1 1 0%; 
+    width: 100%; 
+    border-width: 1px; 
+    border-color: #D1D5DB; 
+    appearance: none; 
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); 
+
+}
+.container {
+    position: relative;
+  }
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+.control-label{
+font-size: 1.5rem;
+ ;
+}
+.headertext{
+    position: relative;
+    font-size:2rem;
+    float: right;
+    left: 40;
+}
+.button{
+    padding-left: 1rem;
+padding-right: 1rem; 
+background-color: #4F46E5; 
+transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform; 
+transition-duration: 200ms; 
+transition-timing-function: cubic-bezier(0.4, 0, 1, 1); 
+color: #ffffff; 
+font-size: 1rem;
+line-height: 1.5rem; 
+font-weight: 600; 
+text-align: center; 
+width: 100%; 
+border-radius: 0.5rem; 
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+
+
+
+}
+.button:hover {
+ background-color: #4338CA; 
+ }
